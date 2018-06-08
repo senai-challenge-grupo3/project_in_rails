@@ -28,6 +28,9 @@ gem 'rack-cors'
 gem 'rack-attack'
 gem 'simple_token_authentication', '~> 1.0'
 
+#
+
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -47,6 +50,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'sqlite3'
   gem 'pry'
+  gem 'rdoc'
 end
 
 group :development do
