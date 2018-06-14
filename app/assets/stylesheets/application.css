@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+.logo{
+    background-image: url(bt.png);
+    width: 487px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 115px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+.custom-home{
+	width: 500px;
+	height: 500px;
+	margin: auto;
+}

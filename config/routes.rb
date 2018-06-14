@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :cursos
 
 
+
   namespace :api do
     namespace :v1 do
         resources :contacts
@@ -11,4 +12,5 @@ Rails.application.routes.draw do
 
 
   root 'pages#home'
+
 end

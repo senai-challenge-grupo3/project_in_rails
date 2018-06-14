@@ -1,2 +1,17 @@
-<h1>Bem-vindo a Game do Senai Challenge </h1>
- 
+<div class="logo"></div>
+<div class="custom-home">
+	
+	<button href="#" type="button" class="btn btn-light btn-lg btn-block">Jogar</button>
+
+	<% if current_user %>
+
+	<button href="" type="button" class="btn btn-light btn-lg btn-block">
+		<%= link_to "Sair", destroy_user_session_path, method: :delete %>
+	</button>
+
+	<% else %>
+	<button href="" type="button" class="btn btn-light btn-lg btn-block">
+		<%= link_to "Sair", destroy_user_session_path, method: :delete %>
+	</button>
+	<%end%>
+</div>
