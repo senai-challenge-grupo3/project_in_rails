@@ -1,17 +1,29 @@
+<!-- Ranking button -->
+<button href="#" type="button" class="glyphicon glyphicon-list-alt button-rank">
+	RANK
+</button>
+<!-- Logo -->
 <div class="logo"></div>
 <div class="custom-home">
+
+	<button href="#" type="button" class="btn btn-light btn-lg button-home">
+		JOGAR
+	</button>
 	
-	<button href="#" type="button" class="btn btn-light btn-lg btn-block">Jogar</button>
+	<!-- Config button -->
+	<button href="/config" type="button" class="btn btn-light btn-lg button-home">
+		CONFIGURAÇÕES
+	</button>
+	
 
-	<% if current_user %>
-
-	<button href="" type="button" class="btn btn-light btn-lg btn-block">
-		<%= link_to "Sair", destroy_user_session_path, method: :delete %>
+	<!-- About button -->
+	<button href="#" type="button" class="btn btn-light btn-lg button-home">
+		SOBRE
 	</button>
 
-	<% else %>
-	<button href="" type="button" class="btn btn-light btn-lg btn-block">
-		<%= link_to "Sair", destroy_user_session_path, method: :delete %>
-	</button>
-	<%end%>
+	<!-- Edit user button -->
+	<%= button_to "EDITAR CONTA", edit_user_registration_path, class: "btn btn-light btn-lg button-home" %> 
+
+	<!-- Destroy user button -->
+	<%= button_to "SAIR", destroy_user_session_path, method: :delete, class: "btn btn-light btn-lg button-home" %>
 </div>
