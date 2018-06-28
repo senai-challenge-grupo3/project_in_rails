@@ -16,9 +16,13 @@
       <%= f.input :password_confirmation, required: false, label: false, placeholder: "Confirmar senha" %>
     </div>
 
-    <div class="form-actions">
-      <%= link_to "Voltar", :back, class: "btn btn-danger btn-block" %>
-      <%= f.button :submit, "Salvar", class: "btn btn-default btn-block" %>
+    <div class="form-actions row">
+      <div class="col-sm-6">
+        <%= link_to "Voltar", root_path, class: "btn btn-danger btn-block" %>
+      </div>
+      <div class="col-sm-6">
+        <button type="submit" class="btn btn-success btn-block">Salvar</button>
+      </div>
     </div>
   <% end %>
   <br>
