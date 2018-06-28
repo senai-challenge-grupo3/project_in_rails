@@ -9,6 +9,11 @@
 	<a href="#" type="button" class="btn btn-light btn-lg button-home">
 		JOGAR
 	</a>
+
+		<!-- Edit user button -->
+	<a href="/profile" type="button" class="btn btn-light btn-lg button-home">
+		PERFIL
+	</a>
 	
 	<!-- Config button -->
 	<a href="/config" type="button" class="btn btn-light btn-lg button-home">
@@ -25,9 +30,6 @@
 	<a href="/help" type="button" class="btn btn-light btn-lg button-home">
 		AJUDA
 	</a>
-
-	<!-- Edit user button -->
-	<%= button_to "EDITAR CONTA", edit_user_registration_path, class: "btn btn-light btn-lg button-home" %> 
 
 	<!-- Destroy user button -->
 	<%= button_to "SAIR", destroy_user_session_path, method: :delete, class: "btn btn-light btn-lg button-home" %>

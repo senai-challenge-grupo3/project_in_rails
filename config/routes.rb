@@ -15,5 +15,7 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
 
   get 'help', to: 'pages#help'
+
+  get 'profile', to: 'pages#profile'
   
 end
