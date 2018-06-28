@@ -12,6 +12,10 @@
   color :#ffffff;
 }
 
+.edit{
+  margin-top: 25vh !important;
+}
+
 /* Title of .devise */
 .devise h2{
   text-align: center;
