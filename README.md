@@ -9,23 +9,23 @@
 ## Baixando
 
 Para baixar o projeto insira o seguinte código no cmd(ou equivalente): <br>
-` git clone http://github.com/senai-challenge-grupo3/project_in_rails.git `
-` cd project_in_rails `
-` bundle install `
-*Obs: Para esta forma funcionar você deve ter o git instalado e seu path adicionado a sua maquina.
-**Obs: Este código irá baixar o projeto na pasta na qual o cmd estiver apontando.
+` git clone http://github.com/senai-challenge-grupo3/project_in_rails.git `<br>
+` cd project_in_rails `<br>
+` bundle install `<br>
+*Obs: Para esta forma funcionar você deve ter o git instalado e seu path adicionado a sua maquina.<br>
+**Obs: Este código irá baixar o projeto na pasta na qual o cmd estiver apontando.<br>
 
 ## Gerar banco de dados
 
-Use:
-` Rails db:migrate `
-Para gerar o banco no formato pré definido pelo sistema.
-*Obs: O banco será produzido em sqlite3.
+Use: <br>
+` Rails db:migrate ` <br>
+Para gerar o banco no formato pré definido pelo sistema. <br>
+*Obs: O banco será produzido em sqlite3. <br>
 
 ## Rodando o servidor
 
-Use:
-` rails s `
-Para levantar o servidor.
-*Obs: Para acessar digite em seu navegador: _localhost:3000_
-**Obs: Para encerrar as atividades do servidor use: 'Crtl' + 'C'
+Use:<br>
+` rails s ` <br>
+Para levantar o servidor. <br>
+*Obs: Para acessar digite em seu navegador: _localhost:3000_ <br>
+**Obs: Para encerrar as atividades do servidor use: 'Crtl' + 'C' <br>
