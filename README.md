@@ -8,7 +8,7 @@
 
 ## Baixando
 
-Para baixar o projeto insira o seguinte código no cmd(ou equivalente):
+Para baixar o projeto insira o seguinte código no cmd(ou equivalente): <br>
 ` git clone http://github.com/senai-challenge-grupo3/project_in_rails.git `
 ` cd project_in_rails `
 ` bundle install `
