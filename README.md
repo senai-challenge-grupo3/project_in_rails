@@ -15,7 +15,7 @@ Para baixar o projeto insira o seguinte código no cmd(ou equivalente):
 *Obs: Para esta forma funcionar você deve ter o git instalado e seu path adicionado a sua maquina.
 **Obs: Este código irá baixar o projeto na pasta na qual o cmd estiver apontando.
 
-### Gerar banco de dados
+## Gerar banco de dados
 
 Use:
 ` Rails db:migrate `
