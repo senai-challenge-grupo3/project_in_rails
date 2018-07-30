@@ -8,7 +8,7 @@ end
 #simple form
 gem 'simple_form'
 #bootstrap
-gem 'twitter-bootstrap-rails'
+gem 'bootstrap', '~> 4.1.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.7'
 
